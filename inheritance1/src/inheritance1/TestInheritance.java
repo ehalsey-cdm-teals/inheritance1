@@ -24,5 +24,7 @@ public class TestInheritance {
 				System.out.println("v3 is four wheel drive");
 			}
 		}
+		
+		v3.moveForward();  //if on dirt or pavement move forward
 	}
 }

@@ -14,5 +14,8 @@ public class Vehicle {
 		this._year = _year;
 	}
 	
+	public void moveForward() {
+		System.out.println("move forward");
+	}
 	
 }

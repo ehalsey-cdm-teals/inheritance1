@@ -16,5 +16,8 @@ public class SUV extends Car {
 	public void set_isFourWheelDrive(boolean _isFourWheelDrive) {
 		this._isFourWheelDrive = _isFourWheelDrive;
 	}
-
+	
+	public void moveForward() {
+		System.out.println("if on dirt or pavement move forward");
+	}
 }
